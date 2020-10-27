@@ -23,4 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![]()
+
+GIF created with [Gifski](https://apps.apple.com/us/app/gifski/id1351639930?mt=12).
