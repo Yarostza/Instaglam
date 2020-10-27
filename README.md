@@ -23,6 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![]()
+![](Instaglam.gif)
 
 GIF created with [Gifski](https://apps.apple.com/us/app/gifski/id1351639930?mt=12).
