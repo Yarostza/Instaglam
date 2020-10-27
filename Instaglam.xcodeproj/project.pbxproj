@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532C6A7727023F4769A09BC0 /* Pods_Instaglam_InstaglamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF178B2BE261D66A6A0082C9 /* Pods_Instaglam_InstaglamUITests.framework */; };
 		546EA13925470E1300EEE403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546EA13825470E1300EEE403 /* AppDelegate.swift */; };
 		546EA13B25470E1300EEE403 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546EA13A25470E1300EEE403 /* SceneDelegate.swift */; };
-		546EA13D25470E1300EEE403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546EA13C25470E1300EEE403 /* ViewController.swift */; };
 		546EA14025470E1300EEE403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EA13E25470E1300EEE403 /* Main.storyboard */; };
 		546EA14225470E1600EEE403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546EA14125470E1600EEE403 /* Assets.xcassets */; };
 		546EA14525470E1600EEE403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546EA14325470E1600EEE403 /* LaunchScreen.storyboard */; };
 		546EA15025470E1600EEE403 /* InstaglamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546EA14F25470E1600EEE403 /* InstaglamTests.swift */; };
 		546EA15B25470E1700EEE403 /* InstaglamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546EA15A25470E1700EEE403 /* InstaglamUITests.swift */; };
+		54AA56BA2547AF8700D2F0B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA56B92547AF8700D2F0B9 /* LoginViewController.swift */; };
+		54AA56BF2547AF9300D2F0B9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA56BE2547AF9300D2F0B9 /* FeedViewController.swift */; };
+		729A65D30A819759E12CD677 /* Pods_Instaglam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684F6634AD8F0CDD1A9AC4C9 /* Pods_Instaglam.framework */; };
+		A96BC4F5FA880D8BA1E969C0 /* Pods_InstaglamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A943A029B7C6AC90B48D4C /* Pods_InstaglamTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08F9792810ED9F43D2AA3A6B /* Pods-Instaglam-InstaglamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaglam-InstaglamUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instaglam-InstaglamUITests/Pods-Instaglam-InstaglamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		476CAD582F477BB2F0FBE8E7 /* Pods-InstaglamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaglamTests.release.xcconfig"; path = "Target Support Files/Pods-InstaglamTests/Pods-InstaglamTests.release.xcconfig"; sourceTree = "<group>"; };
 		546EA13525470E1300EEE403 /* Instaglam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instaglam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546EA13825470E1300EEE403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		546EA13A25470E1300EEE403 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		546EA13C25470E1300EEE403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		546EA13F25470E1300EEE403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		546EA14125470E1600EEE403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		546EA14425470E1600EEE403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		546EA15625470E1700EEE403 /* InstaglamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaglamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		546EA15A25470E1700EEE403 /* InstaglamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaglamUITests.swift; sourceTree = "<group>"; };
 		546EA15C25470E1700EEE403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AA56B92547AF8700D2F0B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		54AA56BE2547AF9300D2F0B9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5D82ED2C993DD0A9838FEB57 /* Pods-Instaglam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaglam.debug.xcconfig"; path = "Target Support Files/Pods-Instaglam/Pods-Instaglam.debug.xcconfig"; sourceTree = "<group>"; };
+		684F6634AD8F0CDD1A9AC4C9 /* Pods_Instaglam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instaglam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7107CE6041032FC825E47C /* Pods-InstaglamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaglamTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaglamTests/Pods-InstaglamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		976273F0D7FC519D12EF3085 /* Pods-Instaglam-InstaglamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaglam-InstaglamUITests.release.xcconfig"; path = "Target Support Files/Pods-Instaglam-InstaglamUITests/Pods-Instaglam-InstaglamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF178B2BE261D66A6A0082C9 /* Pods_Instaglam_InstaglamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instaglam_InstaglamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A943A029B7C6AC90B48D4C /* Pods_InstaglamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaglamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5037E867A284C3CCE758B41 /* Pods-Instaglam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instaglam.release.xcconfig"; path = "Target Support Files/Pods-Instaglam/Pods-Instaglam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729A65D30A819759E12CD677 /* Pods_Instaglam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96BC4F5FA880D8BA1E969C0 /* Pods_InstaglamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532C6A7727023F4769A09BC0 /* Pods_Instaglam_InstaglamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08EAA71553A1DA553D9FB204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684F6634AD8F0CDD1A9AC4C9 /* Pods_Instaglam.framework */,
+				CF178B2BE261D66A6A0082C9 /* Pods_Instaglam_InstaglamUITests.framework */,
+				D3A943A029B7C6AC90B48D4C /* Pods_InstaglamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		546EA12C25470E1300EEE403 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				546EA14E25470E1600EEE403 /* InstaglamTests */,
 				546EA15925470E1700EEE403 /* InstaglamUITests */,
 				546EA13625470E1300EEE403 /* Products */,
+				6E829D445BDDBA6BEC1E35E7 /* Pods */,
+				08EAA71553A1DA553D9FB204 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +130,12 @@
 			children = (
 				546EA13825470E1300EEE403 /* AppDelegate.swift */,
 				546EA13A25470E1300EEE403 /* SceneDelegate.swift */,
-				546EA13C25470E1300EEE403 /* ViewController.swift */,
 				546EA13E25470E1300EEE403 /* Main.storyboard */,
 				546EA14125470E1600EEE403 /* Assets.xcassets */,
 				546EA14325470E1600EEE403 /* LaunchScreen.storyboard */,
 				546EA14625470E1600EEE403 /* Info.plist */,
+				54AA56B92547AF8700D2F0B9 /* LoginViewController.swift */,
+				54AA56BE2547AF9300D2F0B9 /* FeedViewController.swift */,
 			);
 			path = Instaglam;
 			sourceTree = "<group>";
@@ -128,6 +158,19 @@
 			path = InstaglamUITests;
 			sourceTree = "<group>";
 		};
+		6E829D445BDDBA6BEC1E35E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D82ED2C993DD0A9838FEB57 /* Pods-Instaglam.debug.xcconfig */,
+				E5037E867A284C3CCE758B41 /* Pods-Instaglam.release.xcconfig */,
+				08F9792810ED9F43D2AA3A6B /* Pods-Instaglam-InstaglamUITests.debug.xcconfig */,
+				976273F0D7FC519D12EF3085 /* Pods-Instaglam-InstaglamUITests.release.xcconfig */,
+				8A7107CE6041032FC825E47C /* Pods-InstaglamTests.debug.xcconfig */,
+				476CAD582F477BB2F0FBE8E7 /* Pods-InstaglamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546EA15F25470E1700EEE403 /* Build configuration list for PBXNativeTarget "Instaglam" */;
 			buildPhases = (
+				08C9637C0C3686CA912CD7DA /* [CP] Check Pods Manifest.lock */,
 				546EA13125470E1300EEE403 /* Sources */,
 				546EA13225470E1300EEE403 /* Frameworks */,
 				546EA13325470E1300EEE403 /* Resources */,
+				9F7BF25D51DC9B96EB8F02EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546EA16225470E1700EEE403 /* Build configuration list for PBXNativeTarget "InstaglamTests" */;
 			buildPhases = (
+				A268D1E2C6A318B76BE498BF /* [CP] Check Pods Manifest.lock */,
 				546EA14725470E1600EEE403 /* Sources */,
 				546EA14825470E1600EEE403 /* Frameworks */,
 				546EA14925470E1600EEE403 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 546EA16525470E1700EEE403 /* Build configuration list for PBXNativeTarget "InstaglamUITests" */;
 			buildPhases = (
+				0B2E98A40A4967CE483B19A3 /* [CP] Check Pods Manifest.lock */,
 				546EA15225470E1700EEE403 /* Sources */,
 				546EA15325470E1700EEE403 /* Frameworks */,
 				546EA15425470E1700EEE403 /* Resources */,
+				9A918C9B0460AD2F250D8262 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +301,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08C9637C0C3686CA912CD7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instaglam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B2E98A40A4967CE483B19A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instaglam-InstaglamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A918C9B0460AD2F250D8262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instaglam-InstaglamUITests/Pods-Instaglam-InstaglamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instaglam-InstaglamUITests/Pods-Instaglam-InstaglamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instaglam-InstaglamUITests/Pods-Instaglam-InstaglamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7BF25D51DC9B96EB8F02EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instaglam/Pods-Instaglam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instaglam/Pods-Instaglam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instaglam/Pods-Instaglam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A268D1E2C6A318B76BE498BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaglamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		546EA13125470E1300EEE403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546EA13D25470E1300EEE403 /* ViewController.swift in Sources */,
+				54AA56BA2547AF8700D2F0B9 /* LoginViewController.swift in Sources */,
 				546EA13925470E1300EEE403 /* AppDelegate.swift in Sources */,
+				54AA56BF2547AF9300D2F0B9 /* FeedViewController.swift in Sources */,
 				546EA13B25470E1300EEE403 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +585,7 @@
 		};
 		546EA16025470E1700EEE403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D82ED2C993DD0A9838FEB57 /* Pods-Instaglam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +605,7 @@
 		};
 		546EA16125470E1700EEE403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5037E867A284C3CCE758B41 /* Pods-Instaglam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +625,7 @@
 		};
 		546EA16325470E1700EEE403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7107CE6041032FC825E47C /* Pods-InstaglamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +648,7 @@
 		};
 		546EA16425470E1700EEE403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476CAD582F477BB2F0FBE8E7 /* Pods-InstaglamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		546EA16625470E1700EEE403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F9792810ED9F43D2AA3A6B /* Pods-Instaglam-InstaglamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		546EA16725470E1700EEE403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976273F0D7FC519D12EF3085 /* Pods-Instaglam-InstaglamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
